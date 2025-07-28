@@ -1,0 +1,10 @@
+Attendence = int(input("What is your attendence?: "))
+
+if Attendence >= 75:
+    print("You are eligible for the exam")
+else:
+    Certificate = input("Do you have your medical certificate? ")
+    if Certificate == "yes" or "true" or "Yes":
+        print("You are eligible for the exam")
+    else:
+        print("You are ineligible for the exam
